@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'danca';
+    src: url(danca.ttf) format('truetype') ;
+    font-weight: normal;
+
+}
+
+:root{
+--cor1: #F2620F;
+--cor2:#F2360C;
+--cor3: #BF1506;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-danca: 'danca';
+}
+
+body{
+    background-image: linear-gradient(to right, #F2620F,#F2360C,#BF1506 );
+}
+
+main{
+    padding-bottom: 20px;
+    background-color: white;
+    width: 90%;
+   border-radius: 20px;
+    
+}
+
+
+
+header{
+    background-image: linear-gradient(to right,#741b07,#530b05 );
+    border-radius: 20px 20px 0px 0px;
+    color: whitesmoke;
+}
+
+nav{
+    margin-bottom: 40px;
+    background-color: #40241A;
+    padding: 20px;
+    border-radius: 0px 0px 0px 30px;
+   
+}
+a{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+font-size: 18px;
+}
+
+a:hover{
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+    background-color:rgba(104, 102, 102, 0.59);
+
+    
+    
+}
+
+h1{
+    font-family: var(--fonte-danca);
+    font-size: 50;
+    text-align: center;
+}
+
+h3{
+    font-family: var(--fonte-danca);
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    width: 900px;
+    background-image: linear-gradient(to right,#701919, transparent );
+    font-family: var(--fonte-destaque);
+margin: 40px 20px;
+font-size: 40px;
+padding: 20px;
+border-radius: 20px;
+
+}
+
+li{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    line-height: 35px;
+    text-align: justify;
+    width: 600px;
+}
+
+.inf{
+    
+    font-family: var(--fonte-destaque);
+    margin:20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    text-indent: 45px;
+    margin-left: 20px;
+    line-height: 35px;
+    text-align: left;
+}
+
+
+
+section{
+    padding: 20px;
+    margin-right: 0px;
+    margin-bottom: -300px;
+}
+
+table{
+    border: 2px solid black;
+  border-collapse: collapse;
+} 
